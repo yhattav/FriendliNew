@@ -70,7 +70,7 @@ function makeProgressCircle(id,percent) {
 day.animate(percent);  // Number from 0.0 to 1.0
 }
 */
-
+/*
 
 function makeProgressNoob(id,percent) {
     var itemz = document.getElementById(id);
@@ -83,16 +83,18 @@ function makeProgressNoob(id,percent) {
 
 
 $(document).ready(function () { 
-   /* makeProgressCircle('container',0.8);
-    for (i=1;i<6;i++) {
-       makeProgressLine('progress' + i,i*5); 
-    }
-    */
-     for (i=1;i<6;i++) {
-       makeProgressNoob('progress' + i,i*14); 
-       console.log(i);
-    }
+ //  /* makeProgressCircle('container',0.8);
+//    for (i=1;i<6;i++) {
+ //      makeProgressLine('progress' + i,i*5); 
+//    }
+ //   */
+  //   for (i=1;i<6;i++) {
+  //     makeProgressNoob('progress' + i,i*14); 
+   //    console.log(i);
+ //   }
 
-});
+//});
 
-//window.onload = function shagadelic() {
+//window.onload = function shagadelic() { 
+    
+ //   */
