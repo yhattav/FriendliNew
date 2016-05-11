@@ -72,10 +72,11 @@ day.animate(percent);  // Number from 0.0 to 1.0
 */
 
 
-function makeProgressNoob(id,precent) {
-    itemz = document.getElementById(id);
-    for (i=1;i<percent;i++) {
+function makeProgressNoob(id,percent) {
+    var itemz = document.getElementById(id);
+    for (j=1;j<percent;j++) {
        $(itemz).append("X");
+       console.log('added X');
     }
     
 }
@@ -88,7 +89,8 @@ $(document).ready(function () {
     }
     */
      for (i=1;i<6;i++) {
-       makeProgressNoob('progress' + i,i*5); 
+       makeProgressNoob('progress' + i,i*14); 
+       console.log(i);
     }
 
 });
